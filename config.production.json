@@ -1,0 +1,21 @@
+{
+  "url": "https://ghostdemoapp-c0fneraecqhcg3eq.centralus-01.azurewebsites.net",
+  "server": {
+    "port": 8080,
+    "host": "0.0.0.0"
+  },
+  "database": {
+    "client": "sqlite3",
+    "connection": {
+      "filename": "content/data/ghost.db"
+    }
+  },
+  "mail": {
+    "transport": "Direct"
+  },
+  "logging": {
+    "level": "info",
+    "transport": "stdout"
+  },
+  "process": "systemd"
+}
